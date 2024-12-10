@@ -3,7 +3,7 @@ import painel from '../assets/painel-carro-768x512.png';
 
 const Drive = () => {
   return (
-    <div id="drive" className='py-8 flex flex-col w-full items-center justify-center gap-2 md:flex-row  md:justify-around md:px-72 md:items-center'>
+    <div id="drive" className='py-8 px-2 flex flex-col w-full items-center justify-center gap-2 md:flex-row  md:justify-around md:px-72 md:items-center'>
          
          <div className='flex flex-col gap-4 items-center'>
             <p className='text-3xl font-semibold text-center'>Seja um motorista parceiro <span className='text-blue-800 md:text-4xl'>Braz Driver</span>.</p>

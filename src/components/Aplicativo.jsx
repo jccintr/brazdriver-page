@@ -5,7 +5,7 @@ import googleplay from '../assets/googleplay-625x250.png';
 
 const Aplicativo = () => {
   return (
-    <div id="aplicativo" className='bg-gray-200 py-8 flex flex-col-reverse w-full items-center justify-center gap-2 md:flex-row  md:justify-around md:px-72 md:items-center'>
+    <div id="aplicativo" className='bg-gray-200 py-8 px-2 flex flex-col-reverse w-full items-center justify-center gap-2 md:flex-row  md:justify-around md:px-72 md:items-center'>
          <img src={telefone} alt='logo' className='w-40 md:w-72' />
          <div className='flex flex-col gap-4 items-center'>
             <p className='text-3xl font-semibold text-center'>Aplicativo <span className='text-blue-800 md:text-4xl'>Braz Driver</span> para passageiros</p>
